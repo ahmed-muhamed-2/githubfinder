@@ -78,6 +78,6 @@ class UI{
     }
 
     clearProfile(){
-        ui.profile.innerHTML ='';
+        ui.profile.innerHTML = '';
     }
 }
