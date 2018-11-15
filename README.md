@@ -1,4 +1,4 @@
-# Responsive Portfolio
+# githubfinder
 
 ### Technologies used in project
 
