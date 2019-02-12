@@ -11,7 +11,7 @@ seachUser.addEventListener('keyup', (e) => {
         github.getUsers(uesrText).then(data => {
             if(data.profile.message === 'Not Found'){
                 ui.showAlert('User Not Found', 'alert alert-danger');
-            }else{
+            } else {
                 ui.showProfile(data.profile);
                 ui.showRepos(data.rebos);
             }
